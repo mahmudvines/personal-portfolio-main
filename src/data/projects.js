@@ -61,5 +61,6 @@ export const projects = [
     description: "A Figma prototype for a mobile finance app focused on clarity and delight.",
     figmaLink: "https://figma.com/file/...",
        // optional
+//ok       
   },
 ];

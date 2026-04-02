@@ -16,5 +16,6 @@ export const education = [
     degree: "Secondary  School Certificate",
     grade: "GPA: 5.0 / 5.0",
     year: "2018"
+    ///
   }
 ];
