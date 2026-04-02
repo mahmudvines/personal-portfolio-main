@@ -6,13 +6,13 @@ export const education = [
     year: "2023 - 2026"
   },
   {
-    school: " Murari Chand (MC) College",
+    school: " Beanibazar Govt College",
     degree: "Higher Secondary Certificate",
     grade: "GPA: 5.0 / 5.0",
-    year: "2020"
+    year: "2019"
   },
   {
-    school: "Sylhet Government Pilot High School",
+    school: "P C  High School",
     degree: "Secondary  School Certificate",
     grade: "GPA: 5.0 / 5.0",
     year: "2018"

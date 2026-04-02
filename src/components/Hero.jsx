@@ -32,17 +32,17 @@ const Hero = () => {
           </div>
 
           <h1 className="text-6xl md:text-[5.5rem] font-black text-white mb-6 tracking-tighter leading-[0.9] drop-shadow-2xl">
-            Software <br />
+            UI/UX <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan via-blue-400 to-indigo-400">Architect</span> <br />
-            & Engineer<span className="text-cyan">.</span>
+            & Designer<span className="text-cyan">.</span>
           </h1>
           
           <h2 className="text-xl md:text-3xl font-light text-slate-300 mb-8 max-w-xl leading-relaxed">
-            Specializing in <span className="text-white font-semibold">high-load architectures</span> and elegant interface engineering.
+            Specializing in <span className="text-white font-semibold">high-load design architectures</span> and elegant interface engineering.
           </h2>
           
           <p className="max-w-xl text-lg text-slate-400 mb-12 leading-relaxed font-normal border-l-2 border-cyan/30 pl-6">
-            I am <span className="text-white font-medium">Toufiqur Rahman Tasin</span>. I transform complex business requirements into scalable, clean-code reality using the modern web stack.
+            I am <span className="text-white font-medium">Mahmudur Rashid</span>. I transform complex business requirements into scalable, clean-code reality using the modern web stack.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-5">

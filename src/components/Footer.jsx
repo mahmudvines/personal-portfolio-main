@@ -59,7 +59,7 @@ const Footer = () => {
             <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full bg-gradient-to-b from-slate-800 to-navy border-[12px] border-white/5 overflow-hidden shadow-[0_0_50px_rgba(0,0,0,0.5)]">
               <img 
                 src="/src/assets/pic2.png" 
-                alt="Toufiqur Rahman Tasin" 
+                alt="Mahmud" 
                 className="w-full h-full object-cover opacity-80 hover:opacity-100 transition-opacity duration-500 scale-110"
               />
               {/* Overlay Gradient for Profile */}

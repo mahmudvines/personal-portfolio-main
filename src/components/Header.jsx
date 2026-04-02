@@ -20,17 +20,17 @@ const Header = () => {
       <header className="sticky top-0 z-50 bg-navy text-white px-10 py-6 shadow-md flex justify-between items-center">
       <div className="relative group">
       <h1 className="text-4xl md:text-5xl font-signature px-2 text-white pb-1 leading-none ">
-            Toufiqur Rahman Tasin
+            Mahmudur Rashid
           </h1>
 </div>
         
         <nav className="flex items-center gap-6">
           {/* Social Icons (Desktop Only) */}
           <div className="hidden md:flex gap-6 text-2xl">
-            <a href="https://github.com/Taseen06" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/taseen06" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaLinkedin /></a>
-            <a href="https://www.instagram.com/taseen06/" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaInstagram /></a>
-            <a href="https://twitter.com/Toufiqur99" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaTwitter /></a>
+            <a href="https://github.com/mahmudvines" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/mahmudurashid/" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaLinkedin /></a>
+            <a href="https://www.instagram.com/mra_mahmud/?__pwa=1/" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaInstagram /></a>
+            <a href="https://x.com/MVines79714" target="_blank" rel="noreferrer" className="hover:text-cyan transition-colors"><FaTwitter /></a>
           </div>
 
           {/* Menu Toggle Trigger */}
@@ -52,7 +52,7 @@ const Header = () => {
         {/* Top Bar inside Overlay */}
         <div className="flex justify-between items-center px-10 py-6 ">
            <h1 className="text-4xl md:text-5xl font-signature px-2 text-black pb-1 leading-none ">
-            Toufiqur Rahman Tasin
+            Mahmudur Rashid
           </h1>
           <button 
             onClick={toggleMenu} 

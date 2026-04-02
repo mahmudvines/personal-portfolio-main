@@ -1,14 +1,28 @@
 import { 
   FaCode, FaServer, FaTerminal, FaLightbulb, 
-  FaPython, FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaNodeJs, FaPhp, FaLaravel, FaDocker 
+  FaPython, FaReact, FaJs, FaHtml5, FaCss3Alt, FaGitAlt, FaNodeJs, FaPhp, FaLaravel, FaDocker, 
+  FaUserEdit,
+  FaEdit,
+  FaFigma
 } from 'react-icons/fa';
 import { 
-  SiDjango, SiTailwindcss, SiPostgresql, SiFramer, SiExpress, SiNextdotjs, SiMongodb 
+  SiDjango, SiTailwindcss, SiPostgresql, SiFramer, SiExpress, SiNextdotjs, SiMongodb, 
+  SiFigma
 } from 'react-icons/si';
 
 const About = () => {
   const services = [
+    
     {
+      icon: <FaEdit className="text-cyan text-4xl" />,
+      title: "UI/UX  Solutions",
+      description: "Developing custom design solutions tailored to business needs, focusing on scalability and clean code architecture if needed."
+    },
+    {
+      icon: <FaLightbulb className="text-cyan text-4xl" />,
+      title: "Creative Problem Solving",
+      description: "Turning complex requirements into simple, elegant digital experiences through strategic thinking and modern tech stacks."
+    },{
       icon: <FaCode className="text-cyan text-4xl" />,
       title: "Frontend Development",
       description: "Building responsive, high-performance web applications using React.js and modern CSS frameworks like Tailwind."
@@ -17,22 +31,12 @@ const About = () => {
       icon: <FaServer className="text-cyan text-4xl" />,
       title: "Backend Development",
       description: "Crafting robust server-side logic and RESTful APIs using Python and Django to ensure seamless data flow."
-    },
-    {
-      icon: <FaTerminal className="text-cyan text-4xl" />,
-      title: "Software Solutions",
-      description: "Developing custom tech solutions tailored to business needs, focusing on scalability and clean code architecture."
-    },
-    {
-      icon: <FaLightbulb className="text-cyan text-4xl" />,
-      title: "Creative Problem Solving",
-      description: "Turning complex requirements into simple, elegant digital experiences through strategic thinking and modern tech stacks."
     }
   ];
 
   const technologies = [
+    { name: "Figma", icon: <SiFigma className="text-[#092E20]" /> },
     { name: "Python", icon: <FaPython className="text-[#3776AB]" /> },
-    { name: "Django", icon: <SiDjango className="text-[#092E20]" /> },
     { name: "React.js", icon: <FaReact className="text-[#61DAFB]" /> },
     { name: "Next.js", icon: <SiNextdotjs className="text-black" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-[#339933]" /> },
@@ -50,28 +54,35 @@ const About = () => {
       <div className="max-w-7xl mx-auto">
         
         {/* About Content */}
-        <div className="flex flex-col lg:flex-row gap-16 mb-20 items-center">
-          <div className="flex-1">
-            <h2 className="text-4xl md:text-5xl font-extrabold text-navy mb-6 tracking-tight">
-              About Me
-            </h2>
-            <p className="text-lg text-gray-600 leading-relaxed mb-6">
-              I am a passionate <span className="text-navy font-bold">Full Stack Developer</span> based in Sylhet, Bangladesh. 
-              My journey in tech is driven by a desire to craft seamless digital solutions that solve real-world business challenges.
-            </p>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              With expertise in <span className="text-teal-600 font-semibold">Python, Django, and React.js</span>, 
-              I specialize in bridging the gap between complex backend logic and intuitive frontend interfaces.
-            </p>
-          </div>
+       {/* About Content */}
+<div className="flex flex-col lg:flex-row gap-16 mb-20 items-center">
+  <div className="flex-1">
+    <div className="flex items-center gap-3 mb-4">
+      
+    </div>
+    
+    <h2 className="text-4xl md:text-5xl font-extrabold text-navy mb-6 tracking-tight">
+      About Me
+    </h2>
+    
+    <p className="text-lg text-gray-600 leading-relaxed mb-6">
+      I am a dedicated <span className="text-navy font-bold">UI/UX Architect & Designer</span> based in Sylhet, Bangladesh. 
+      I specialize in transforming complex requirements into <span className="text-navy font-medium">elegant, human-centered digital experiences</span> that balance form and function.
+    </p>
+    
+    <p className="text-lg text-gray-600 leading-relaxed">
+      With a deep focus on <span className="text-teal-600 font-semibold">Design Systems, User Research, and Interactive Prototyping</span>, 
+      I bridge the gap between creative vision and technical feasibility to build products that are both beautiful and accessible.
+    </p>
+</div>
           
           <div className="flex-1 grid grid-cols-2 gap-4">
             <div className="p-8 bg-gray-50 rounded-2xl border-b-4 border-cyan text-center">
-              <span className="block text-4xl font-bold text-navy mb-2">2+</span>
+              <span className="block text-4xl font-bold text-navy mb-2">5+</span>
               <span className="text-gray-500 uppercase text-xs tracking-widest">Years Experience</span>
             </div>
             <div className="p-8 bg-gray-50 rounded-2xl border-b-4 border-navy text-center">
-              <span className="block text-4xl font-bold text-navy mb-2">20+</span>
+              <span className="block text-4xl font-bold text-navy mb-2">30+</span>
               <span className="text-gray-500 uppercase text-xs tracking-widest">Projects Done</span>
             </div>
           </div>
